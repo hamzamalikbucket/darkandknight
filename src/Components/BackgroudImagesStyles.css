@@ -1,0 +1,28 @@
+.aboutImage-bg {
+  background-image: url("../Assetts/Images/PHOTO-2024.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.contactImage-bg {
+  background-image: url("../Assetts/Images/eventy-security.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.privacyImage-bg {
+  background-image: url("../Assetts/Images/private-investigator.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.point-name {
+  color: orange;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.point-name:hover{
+  border-bottom: 1px solid orange;
+}

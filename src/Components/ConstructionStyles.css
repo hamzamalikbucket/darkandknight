@@ -1,0 +1,10 @@
+.image-1{
+    background-image: url("../Assetts/Images/securityservices-1.jpg");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.blue-border{
+    border-bottom: 1px solid #1761A0;
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 12px 40px;
+    font-size: 1rem;
+    background: rgb(21, 104, 228);
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background: orange;
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .btn{
+      padding: 12px 40px;
+      font-size: .7rem;
+      background: rgb(21, 104, 228);
+      color: white;
+      border-radius: 40px;
+      cursor: pointer;
+    }
+  }

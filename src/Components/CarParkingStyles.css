@@ -1,0 +1,18 @@
+.image-4{
+    background-image: url("../Assetts/Images/Unifrom-security.jpg");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.image-3{
+    background-image: url("../Assetts/Images/Mobile-petrolling.jpg");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.row ol li{
+    color: #1761A0;
+}
+.row ol li p{
+    color: black;
+}

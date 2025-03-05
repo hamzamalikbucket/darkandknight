@@ -1,0 +1,32 @@
+.work {
+  height: 230px;
+  background-color: black;
+  color: white;
+}
+.work p{
+    font-size: 1rem;
+}
+@media screen and (max-width: 768) {
+  .work {
+    height: 230px;
+  }
+  .work p {
+    font: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .work {
+    height: 275px;
+  }
+  .work p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .work {
+    height: 260px;
+  }
+  .work p {
+    font-size: 14px;
+  }
+}

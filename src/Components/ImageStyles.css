@@ -1,0 +1,8 @@
+.background {
+  background-image: url("../Assetts/Images/protection-bodyguard.jpg");
+  /* height: 30vh; */
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  /* width: 100%; */
+}

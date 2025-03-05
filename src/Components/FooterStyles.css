@@ -1,0 +1,65 @@
+.footer {
+  height: 360px;
+}
+.order {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.order li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.order li:hover {
+  color: orange;
+}
+.order li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.order li a:hover {
+  color: orange;
+  /* border-bottom: 1px solid blue; */
+}
+.bar {
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  margin: 1rem auto;
+  display: block;
+}
+.CopyRight p {
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1rem;
+}
+.orange {
+  color: orange;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 375px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer {
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer {
+    height: 500px;
+  }
+  .orange {
+    font-size: 1rem;
+  }
+  .order li {
+    font-size: 12px;
+  }
+}

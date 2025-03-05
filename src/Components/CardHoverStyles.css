@@ -1,0 +1,16 @@
+
+.heading-touch{
+    color: #314357;
+    font-size: 2.5rem;
+}
+
+.line{
+    /* line-height: 5px; */
+    font-size: 13px;
+}
+
+.row .border:hover{
+    border-bottom:3px solid #1761A0 !important;
+    background-color: aliceblue;
+}
+
